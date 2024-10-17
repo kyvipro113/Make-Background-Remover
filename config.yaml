@@ -1,0 +1,7 @@
+DEEPLEARNING_REFINE_MASK:
+    USE_MASK_REFINE: false, 
+    MODEL_PATH: checkpoints/MGMatting-RWP-100k/latest_model.pth,
+    POST_PROCESS: true
+USE_BKC_REPLACE: true
+BACKGROUND_COLOR_RGB: [255, 255, 255]
+DATA_OUT: data_out
